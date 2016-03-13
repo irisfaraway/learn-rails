@@ -91,4 +91,7 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = false
+
+  # Let me use the console
+  config.web_consoel.development_only = false
 end
