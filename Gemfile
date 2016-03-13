@@ -10,7 +10,6 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 group :development, :test do
   gem 'byebug'
-  gem 'web-console', '~> 2.0'
   gem 'spring'
 end
 gem 'foundation-rails', '~> 5.5'
@@ -22,6 +21,7 @@ group :development do
   gem 'quiet_assets'
   gem 'rails_layout'
   gem 'sqlite3'
+  gem 'web-console', '~> 2.0'
 end
 group :production do
   gem 'pg'
