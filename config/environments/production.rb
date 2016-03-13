@@ -93,5 +93,5 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = false
 
   # Let me use the console
-  config.web_consoel.development_only = false
+  config.web_console.development_only = false
 end
